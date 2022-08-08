@@ -1,10 +1,12 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import App from "./app/App";
 import initApp from "./main/initializers/app";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import 'antd/dist/antd.css';
 
 initApp().then((appStore: any) => {
   ReactDOM.render(

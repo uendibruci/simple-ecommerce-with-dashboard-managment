@@ -1,0 +1,11 @@
+.category {
+  padding: 30px;
+  background-color: #ced4da4e;
+}
+
+.category__products {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-between;
+  flex-direction: row;
+}

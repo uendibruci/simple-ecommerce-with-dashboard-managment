@@ -1,0 +1,27 @@
+.profileDetails {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  background-color: #ced4da4e;
+  height: 100%;
+}
+
+.profileDetails__content {
+  background-color: white;
+  height: 80%;
+  padding: 20px;
+}
+
+.card__detail {
+  margin-top: 10px;
+}
+
+.card__detail > p {
+  color: rgb(105, 105, 105);
+  margin: 0;
+}
+
+.bankAccount__btn {
+  margin-top: 20px;
+}

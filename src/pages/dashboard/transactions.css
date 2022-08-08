@@ -1,0 +1,22 @@
+.transactions {
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  background-color: #ced4da4e;
+  height: 100%;
+}
+
+.transactions__content {
+  background-color: white;
+  height: 80%;
+  padding: 20px;
+}
+
+.transactions__select {
+  border: 1px solid rgb(126, 203, 238);
+  padding: 1rem;
+  outline: none;
+  width: 250px;
+  margin-bottom: 20px;
+}
